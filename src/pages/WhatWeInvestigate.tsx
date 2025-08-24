@@ -94,7 +94,7 @@ const investigations = [
     title: "Counterintelligence",
     description:
       "The FBI is the lead agency for exposing, preventing, and investigating intelligence activities, including espionage, in the U.S.",
-    image: "/assets/images/inv5.webp",
+    image: "/assets/images/ci.webp",
   },
   {
     title: "Weapons of Mass Destruction",
