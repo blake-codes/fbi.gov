@@ -12,7 +12,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const MakeAReport = () => {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, username } = useAuth();
   const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -130,7 +130,7 @@ const MakeAReport = () => {
           </ModalOverlay>
         )
       )}
-      <ChatBot />
+      {isAuthenticated && username !== "admin" && <ChatBot />}
       <Footer />
       <FooterEnd />
     </>
