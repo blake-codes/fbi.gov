@@ -58,7 +58,7 @@ const AboutUs = () => {
               If you have questions, concerns, or tips, please visit our{" "}
               <strong>Contact</strong> page. <br />
               You can also reach out directly by emailing{" "}
-              <a href="mailto:tackingninvestigationdept@gmail.com">
+              <a href="mailto:trackingnvestigationdept@gmail.com">
                 tackingninvestigationdept@gmail.com
               </a>{" "}
               or by clicking the chat icon at the bottom right of this page.

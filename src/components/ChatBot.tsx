@@ -53,7 +53,7 @@ const ChatWindow = styled.div<{ isOpen: boolean }>`
   display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   flex-direction: column;
   height: 400px;
-  z-index: 1000;
+  z-index: 10000;
   animation: ${({ isOpen }) => (isOpen ? "fadeIn 0.3s" : "fadeOut 0.3s")};
 
   @keyframes fadeIn {

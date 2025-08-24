@@ -80,6 +80,11 @@ const MakeAReport = () => {
             required to make a payment of{" "}
             <strong>10% of the amount you were scammed</strong>. This is a
             mandatory processing fee to initiate your case.
+            <br />
+            💳 Payment can also be made in installments for your convenience.
+            <br />
+            📞 For further questions or clarifications, please contact our
+            customer service team here.
           </PaymentNote>
 
           <Form onSubmit={handleSubmit}>
