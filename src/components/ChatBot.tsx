@@ -194,7 +194,7 @@ const UserPromptOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2000;
+  z-index: 20000;
   @media (max-width: 600px) {
     padding: 15px;
     width: 95%;
