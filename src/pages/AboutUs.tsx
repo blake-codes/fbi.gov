@@ -59,7 +59,7 @@ const AboutUs = () => {
               <strong>Contact</strong> page. <br />
               You can also reach out directly by emailing{" "}
               <a href="mailto:trackingnvestigationdept@gmail.com">
-                tackingninvestigationdept@gmail.com
+                trackingnvestigationdept@gmail.com
               </a>{" "}
               or by clicking the chat icon at the bottom right of this page.
             </Paragraph>
