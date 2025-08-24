@@ -84,7 +84,7 @@ const MakeAReport = () => {
             💳 Payment can also be made in installments for your convenience.
             <br />
             📞 For further questions or clarifications, please contact our
-            customer service team here.
+            customer service team.
           </PaymentNote>
 
           <Form onSubmit={handleSubmit}>
